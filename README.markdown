@@ -1,6 +1,6 @@
 ## fork info
 
-This is my personal dotfiles and settings. Want to build you own? Check out original [here](http://github.com/holman)
+This is my personal dotfiles and settings. Want to build your own? Check out original [here](http://github.com/holman)
 
 ## install
 
