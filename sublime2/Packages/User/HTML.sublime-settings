@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"view",
+		"mustache"
+	],
+	"wrap_width": 0
+}

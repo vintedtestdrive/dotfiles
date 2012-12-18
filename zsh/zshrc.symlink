@@ -2,10 +2,10 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/Work
 
 # source every .zsh file in this rep
-for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] || source $config_file
+for config_file ($ZSH/**/*.zsh) source $config_file
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
@@ -20,3 +20,40 @@ compinit
 
 # load every completion after autocomplete loads
 for config_file ($ZSH/**/completion.zsh) source $config_file
+
+
+# Path to your oh-my-zsh configuration.
+#ZSH=$HOME/.oh-my-zsh
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+# ZSH_THEME="robbyrussell"
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Uncomment following line if you want red dots to be displayed while waiting for completion
+# COMPLETION_WAITING_DOTS="true"
+
+#plugins=(git rvm osx ruby nvm)
+
+
+#source $ZSH/oh-my-zsh.sh
+
+# Customize to your needs...
+#export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+umask 0002 
+
+export RUBY_HEAP_MIN_SLOTS=1000000
+export RUBY_HEAP_SLOTS_INCREMENT=1000000
+export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
+export RUBY_GC_MALLOC_LIMIT=1000000000
+export RUBY_HEAP_FREE_MIN=500000
+
+rvm default

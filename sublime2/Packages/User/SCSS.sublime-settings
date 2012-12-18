@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"scss",
+		"css",
+		"erb"
+	],
+	"word_wrap": false
+}

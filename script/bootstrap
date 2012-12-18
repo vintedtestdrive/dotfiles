@@ -3,11 +3,17 @@
 # bootstrap installs things.
 
 # Assume everyone's on OS X and run Homebrew (*nix-ers beware)
-if [ $(uname -s) = "Darwin" ] 
+if [ $(uname -s) = "Darwin" ]
 then
 	. script/homebrew
 fi
 
 # Run the install (I'd like to pull this out of rake, eventually)
 rake install
+
+# OSX Settings
+. $ZSH/osx/set-defaults.sh
+
+# Setup Sublime Text 2
+. $ZSH/sublime2/setup
 
