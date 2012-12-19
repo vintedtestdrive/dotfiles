@@ -5,7 +5,7 @@ export ZSH=$HOME/.dotfiles
 export PROJECTS=~/Work
 
 # source every .zsh file in this rep
-for config_file ($ZSH/**/*.zsh) source $config_file
+for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] || source $config_file
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
@@ -48,7 +48,7 @@ for config_file ($ZSH/**/completion.zsh) source $config_file
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-umask 0002 
+umask 0002
 
 export RUBY_HEAP_MIN_SLOTS=1000000
 export RUBY_HEAP_SLOTS_INCREMENT=1000000
@@ -56,4 +56,4 @@ export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
 export RUBY_GC_MALLOC_LIMIT=1000000000
 export RUBY_HEAP_FREE_MIN=500000
 
-rvm default
+# rvm default
