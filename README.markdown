@@ -20,4 +20,4 @@ script/bootstrap
 
 ## thanks
 
-I forked [Zach Holmans](http://github.com/holman)' awesome [dotfiles](http://github.com/holman/dotfiles) and tweaked to suite my needs. your should do this too.
+I forked [Zach Holmans](http://github.com/holman)' awesome [dotfiles](http://github.com/holman/dotfiles) and tweaked to suite my needs. You should do this too.
