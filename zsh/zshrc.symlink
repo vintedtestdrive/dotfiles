@@ -48,6 +48,8 @@ for config_file ($ZSH/**/completion.zsh) source $config_file
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH=/usr/local/share/npm/bin:$PATH #npm modules
+
 umask 0002
 
 export RUBY_HEAP_MIN_SLOTS=1000000
