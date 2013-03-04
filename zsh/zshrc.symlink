@@ -61,3 +61,8 @@ export RUBY_HEAP_FREE_MIN=500000
 rvm default
 
 export FALLBACK_IMAGES=1
+
+
+# Customize to your needs...
+export MAGICK_HOME=/usr/local/Cellar/imagemagick/6.7.7-6
+export DYLD_LIBRARY_PATH=/usr/local/Cellar/imagemagick/6.7.7-6/lib
