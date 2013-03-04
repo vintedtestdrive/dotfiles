@@ -2,18 +2,18 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"4GL",
 		"Alignment",
 		"Browser Refresh",
 		"CoffeeScript",
 		"Dayle Rees Color Schemes",
 		"Dust.js",
+		"Emmet Css Snippets",
+		"Git",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Sass",
 		"SCSS",
 		"SFTP",
-		"SublimeTODO",
 		"Theme - Soda"
 	],
 	"repositories":
