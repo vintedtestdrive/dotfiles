@@ -1,5 +1,5 @@
 #!/bin/sh
-# Setup a machine for Sublime Text 2
+# Setup a machine for Sublime Text 3
 # set -x # shows executed commands
 
 # symlink settings in
