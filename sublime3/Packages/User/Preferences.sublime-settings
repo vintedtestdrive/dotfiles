@@ -28,8 +28,8 @@
 	[
 		"draw_normal"
 	],
-	"line_padding_bottom": 0.5,
-	"line_padding_top": 0.5,
+	"line_padding_bottom": 0.75,
+	"line_padding_top": 0.75,
 	"match_brackets": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": true,
@@ -44,7 +44,7 @@
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
-	"show_tab_close_buttons": true,
+	"show_tab_close_buttons": false,
 	"smart_indent": false,
 	"soda_classic_tabs": true,
 	"tab_completion": true,

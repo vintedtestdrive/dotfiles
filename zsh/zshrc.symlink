@@ -44,11 +44,8 @@ for config_file ($ZSH/**/completion.zsh) source $config_file
 #source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-#export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
-
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 export PATH=/usr/local/share/npm/bin:$PATH #npm modules
+export PATH=/usr/local/bin:$PATH
 
 umask 0002
 
@@ -65,4 +62,3 @@ export FALLBACK_IMAGES=1
 
 # Customize to your needs...
 export MAGICK_HOME=/usr/local/Cellar/imagemagick/6.7.7-6
-#export DYLD_LIBRARY_PATH=/usr/local/Cellar/imagemagick/6.7.7-6/lib
