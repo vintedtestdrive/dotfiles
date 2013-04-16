@@ -1,8 +1,0 @@
-#!/bin/sh
-# Setup a machine for Sublime Text 2
-# set -x # shows executed commands
-
-# symlink settings in
-sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 2/
-mv "$sublime_dir/Packages" "$sublime_dir/Packages.backup"
-ln -s "$ZSH/sublime2/Packages" "$sublime_dir"
