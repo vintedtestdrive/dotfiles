@@ -1,6 +1,9 @@
 {
 	"installed_packages":
 	[
-		"Package Control"
+		"Alignment",
+		"Package Control",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
 	]
 }
