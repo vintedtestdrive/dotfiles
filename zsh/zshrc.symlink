@@ -64,3 +64,6 @@ export MAGICK_HOME=/usr/local/Cellar/imagemagick/6.7.7-6
 
 # Editor
 export EDITOR='subl -w'
+
+# md-images on localhost
+export FALLBACK_IMAGES=1

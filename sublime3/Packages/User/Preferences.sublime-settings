@@ -7,7 +7,34 @@
 	"detect_indentation": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
+	"enable_tab_scrolling": true,
 	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.sock",
+		"*.tmTheme.cache",
+		"*.tmPreferences.cache",
+		"*.tmLanguage.cache",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
@@ -15,10 +42,12 @@
 		".sass-cache",
 		".git",
 		".svn",
+		"log",
 		"tmp"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 13.0,
+	"font_size": 12.0,
+	"gutters": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -41,6 +70,10 @@
 	"overlay_scroll_bars": "system",
 	"preview_on_click": false,
 	"remember_open_files": true,
+	"rulers":
+	[
+		80
+	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
