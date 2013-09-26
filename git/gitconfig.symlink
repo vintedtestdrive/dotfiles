@@ -24,7 +24,7 @@
         branch = auto
         ui = true
 [core]
-	excludesfile = /Users/Work/.gitignore
+	excludesfile = /Users/Edvinas/.gitignore_global
         editor = vim
 [apply]
         whitespace = nowarn
@@ -34,7 +34,7 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.localized/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [color]
         ui = auto
