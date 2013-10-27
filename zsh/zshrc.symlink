@@ -40,30 +40,10 @@ for config_file ($ZSH/**/completion.zsh) source $config_file
 
 #plugins=(git rvm osx ruby nvm)
 
-
 #source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/share/npm/bin:$PATH #npm modules
-
-umask 0002
-
-export RUBY_HEAP_MIN_SLOTS=1000000
-export RUBY_HEAP_SLOTS_INCREMENT=1000000
-export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
-export RUBY_GC_MALLOC_LIMIT=1000000000
-export RUBY_HEAP_FREE_MIN=500000
-
 rvm default
-
-export FALLBACK_IMAGES=1
-
 
 # Customize to your needs...
 export MAGICK_HOME=/usr/local/Cellar/imagemagick/6.7.7-6
-
-# Editor
-export EDITOR='subl -w'
-
-# md-images on localhost
-export FALLBACK_IMAGES=1

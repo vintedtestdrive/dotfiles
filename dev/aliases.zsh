@@ -1,6 +1,7 @@
 _RAILS_C_SCREEN_ID=`whoami`_rails_c
 _RAILS_C_CMD="screen -S $_RAILS_C_SCREEN_ID -D -R rails c"
 _SSH_PROXY='ssh -t root@admin.vinted.net'
+
 alias console_fr="$_SSH_PROXY 'ssh -t mongrel@web1.vinted.fr \"cd /home/domains/vinted.fr/webapp/current/ && $_RAILS_C_CMD\"'"
 alias console_de="$_SSH_PROXY 'ssh -t mongrel@web2.kleiderkreisel.de \"cd /home/domains/kleiderkreisel.de/webapp/current/ && $_RAILS_C_CMD\"'"
 alias console_de_babies="$_SSH_PROXY 'ssh -t mongrel@web2.mamikreisel.de \"cd /home/domains/mamikreisel.de/webapp/current/ && $_RAILS_C_CMD\"'"
