@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/toychest/toychest-mod.tmTheme",
+	"color_scheme": "Packages/User/themes/Obsidian-mod2.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -33,7 +33,10 @@
 		".DS_Store",
 		"*.class",
 		"*.psd",
-		"*.db"
+		"*.db",
+		"*.png",
+		"*.jpg",
+		"*.gif"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
