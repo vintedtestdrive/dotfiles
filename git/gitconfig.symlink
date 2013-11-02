@@ -44,7 +44,7 @@
         autosetupmerge = true
         autosetuprebase = always
 [push]
-        default = current
+	default = simple
 [branch "master"]
         rebase = true
 [rebase]
