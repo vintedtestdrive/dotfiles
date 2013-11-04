@@ -33,10 +33,7 @@
 		".DS_Store",
 		"*.class",
 		"*.psd",
-		"*.db",
-		"*.png",
-		"*.jpg",
-		"*.gif"
+		"*.db"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -76,7 +73,8 @@
 	"remember_open_files": true,
 	"rulers":
 	[
-		80
+		80,
+		100
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
