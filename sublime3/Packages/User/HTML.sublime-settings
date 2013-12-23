@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"ejs",
-		"hbs"
+		"ejs"
 	]
 }
