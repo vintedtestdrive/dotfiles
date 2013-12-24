@@ -46,3 +46,9 @@ for config_file ($ZSH/**/completion.zsh) source $config_file
 export MAGICK_HOME=/usr/local/Cellar/imagemagick/6.7.7-6
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export PERL_LOCAL_LIB_ROOT="/Users/Edvinas/perl5:$PERL_LOCAL_LIB_ROOT";
+export PERL_MB_OPT="--install_base "/Users/Edvinas/perl5"";
+export PERL_MM_OPT="INSTALL_BASE=/Users/Edvinas/perl5";
+export PERL5LIB="/Users/Edvinas/perl5/lib/perl5:$PERL5LIB";
+export PATH="/Users/Edvinas/perl5/bin:$PATH";

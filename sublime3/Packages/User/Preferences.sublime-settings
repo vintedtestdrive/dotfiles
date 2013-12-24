@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/themes/Phix Dark.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/base16-ocean.dark.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -51,8 +51,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Tomorrow Color Schemes",
-		"Vintage"
+		"Vintage",
+		"Tomorrow Color Schemes"
 	],
 	"indent_guide_options":
 	[
@@ -84,7 +84,7 @@
 	"soda_classic_tabs": true,
 	"tab_completion": true,
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"trim_automatic_white_space": true,
