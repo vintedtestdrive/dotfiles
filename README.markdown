@@ -7,7 +7,7 @@ This is my personal dotfiles and settings. Want to build your own? Check out ori
 Run this:
 
 ```sh
-git clone https://github.com/gzm123/dotfiles.git ~/.dotfiles
+git clone https://github.com/vintedtestdrive/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
