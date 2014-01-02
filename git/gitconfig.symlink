@@ -5,8 +5,8 @@
 [hub]
         protocol = https
 [user]
-	name = Edvinas Arzatskis
-	email = arzatskis@gmail.com
+	name = Vinted Testdrive
+	email = testdrive@vinted.com
 [credential]
         helper = osxkeychain
 [alias]
